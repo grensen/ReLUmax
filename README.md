@@ -1,5 +1,5 @@
-# ReLUmax - make the Softmax Function great again with ReLUs!
-# Multi-class Perceptron with new kind of Output Activation Demo Using C#
+## ReLUmax - make the Softmax Function great again with ReLUs!
+## Multi-class Perceptron with new kind of Output Activation Demo Using C#
 
 So many times I've thought about improving the softmax function for the output neurons.
 The conclussion was that this function is perfect in so many ways. 
