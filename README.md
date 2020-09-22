@@ -13,7 +13,7 @@ Think about the ReLU, if the netinput value is > 0 we take this value, if not we
 So we drop this neuron out, no matter which negative value was inside. 
 
 Let's think about we would do that with any output neuron which has a value less then 0?
-We could skip all the iterations for that neuron on the backpropagation which speeds up the training process.
+We could skip all iterations for this neuron on the backpropagation, which speeds up the training process.
 
 Take another look, the demo uses (1 - output) to calculate the gradient of the target, 
 for simplicity let's change the sign and the equation into (output - 1) for the target neuron.
