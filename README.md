@@ -1,5 +1,5 @@
-#ReLUmax - make the Softmax Function great again with ReLUs!
-#Multi-class Perceptron with new kind of Output Activation Demo Using C#
+# ReLUmax - make the Softmax Function great again with ReLUs!
+# Multi-class Perceptron with new kind of Output Activation Demo Using C#
 
 So many times I've thought about improving the softmax function for the output neurons.
 The conclussion was that this function is perfect in so many ways. 
@@ -21,6 +21,12 @@ for simplicity let's change the sign and the equation into (output - 1) for the 
 So if every output neuron would be zero because of ReLU activation, 
 the target neuron would be punished by the max of -1 and all other output neurons would be skipped, neat!
 And it works fine and fast you can see in the figure below.
+
+´´´
+<p align="center">
+<img src="https://raw.githubusercontent.com/grensen/ReLUmax/master/figure1.png">
+</p>
+´´´
 
 Finally this approach is new, and some experiments show that both implementations show some lights and shadows.
 But why should we really use functions like that?
