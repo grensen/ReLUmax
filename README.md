@@ -7,7 +7,7 @@ Last weekend I was thinking about a crazy idea,
 but for that purpose the output needs to handle the ReLU neurons.
 
 Finally, this idea was leading me to the softmax with ReLU activation, 
-not for my purpose but it seems it could be a heavy speeds up linear models.
+not for my purpose but it seems it could be a heavy speed up for linear models.
 
 Think about the ReLU, if the netinput value is > 0 we take this value, if not we set this neuron to 0.
 So we drop this neuron out, no matter which negative value was inside. 
