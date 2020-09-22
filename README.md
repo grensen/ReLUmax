@@ -26,7 +26,7 @@ And it works fine and fast you can see in the figure below.
 <img src="https://raw.githubusercontent.com/grensen/ReLUmax/master/figure1.png">
 </p>
 
-Finally this approach is new, and some experiments show that both implementations show some lights and shadows.
+Finally the best I know this approach is new, and some experiments show that both implementations show some lights and shadows.
 But why should we really use functions like that?
 2020 was leading to a breaktrough with GPT-3 and a crazy hype about that. 
 GPT-3 is not so far from GPT-2, the main difference is just the size, it is a much bigger network.
@@ -36,3 +36,5 @@ Other ideas inside GPT-3 are Transformers and the Attention mechanism.
 And here we have many linear networks inside, but not only with 10 outputs like in the demo.
 Imagine output vectors with 100, 1000 or more output neurons, in the best case instead of calculating every output neuron, we only train the target neuron, BAM!
 
+In the spirit of Lex Fridman, I hope and fight for a better world and our future.
+If you have your chance, be a part of it!
