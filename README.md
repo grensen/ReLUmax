@@ -22,11 +22,9 @@ So if every output neuron would be zero because of ReLU activation,
 the target neuron would be punished by the max of -1 and all other output neurons would be skipped, neat!
 And it works fine and fast you can see in the figure below.
 
-´´´
 <p align="center">
 <img src="https://raw.githubusercontent.com/grensen/ReLUmax/master/figure1.png">
 </p>
-´´´
 
 Finally this approach is new, and some experiments show that both implementations show some lights and shadows.
 But why should we really use functions like that?
@@ -36,6 +34,5 @@ The training of GPT-3 cost millions, and to train a theoretical GPT-4 network to
 
 Other ideas inside GPT-3 are Transformers and the Attention mechanism.
 And here we have many linear networks inside, but not only with 10 outputs like in the demo.
-Imagine output vectors with 100, 1000 or more output neurons, 
-in the best case instead of calculating every output neuron, we only train the target neuron, BAM!
+Imagine output vectors with 100, 1000 or more output neurons, in the best case instead of calculating every output neuron, we only train the target neuron, BAM!
 
