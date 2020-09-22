@@ -26,7 +26,7 @@ And it works fine and fast you can see in the figure below.
 <img src="https://raw.githubusercontent.com/grensen/ReLUmax/master/figure1.png">
 </p>
 
-Finally the best I know this approach is new, and some experiments show that both implementations show some lights and shadows.
+Finally the best I know this approach is new, and some experiments for both implementations showed some lights and shadows.
 But why should we really use functions like that?
 2020 was leading to a breaktrough with GPT-3 and a crazy hype about that. 
 GPT-3 is not so far from GPT-2, the main difference is just the size, it is a much bigger network.
